@@ -81,15 +81,7 @@ export default function Page() {
                   </span>
                 </div>
                   <button
-                  className="
-                  bg-red-300
-                  p-2
-                  font-bold
-                  border-white
-                  border-2
-                  mt-10
-                  rounded-md
-                  hover:bg-red-400" 
+                  className="bg-red-300 p-2 font-bold border-white border-2 mt-10 rounded-md hover:bg-red-400" 
                   onClick={logout}
                 >Logout</button>
               </div>
@@ -109,16 +101,7 @@ export default function Page() {
               <div className="grid min-h-[200px] place-content-center p-4 animate-text-reveal [animation-fill-mode:backwards]">
                 <div className="group relative w-fit transition-transform duration-300 active:scale-95">
                   <button
-                    className="
-                    bg-green-300
-                    px-4 py-2
-                    w-[200px]
-                    font-bold
-                    border-white
-                    border-2
-                    mt-3
-                    rounded-md
-                    hover:bg-green-400" 
+                    className=" bg-green-300 px-4 py-2 w-[200px] font-bold border-white border-2 mt-3 rounded-md hover:bg-green-400" 
                     onClick={login}
                   >Login</button>
                   </div>
@@ -131,6 +114,5 @@ export default function Page() {
         </footer>
       </div>
    </main>
-   
   );
 }

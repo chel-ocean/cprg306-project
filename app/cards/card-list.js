@@ -13,7 +13,7 @@ export default function CardList() {
         setCards(cards);
     }
 
-    const getFilteredCards = async () => {
+    const getFilteredCards = () => {
         if (filterBy === "major") {
             setCards(cards.filter((card) => card.type.indexOf("The") > -1));
         } else if (filterBy === "wands") {
